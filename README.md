@@ -8,7 +8,8 @@
 ***
   
 ### Make .py file as service
-create file or copy edited ```checker_who.service```: 
+edit this file: ```checker_who.service``` and copy to: `/etc/systemd/system/`
+it is also possible to create a file at the final path with permission
 
 example:  
 ```nano /etc/systemd/system/YOUR_SERVICE.service```
