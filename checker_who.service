@@ -1,0 +1,16 @@
+[Unit]
+Description=Check for ssh connect from ext or local
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=Simple
+Restart=always
+RestartSec=1
+User=root
+WorkingDirectory=/home/mainserver/checker
+ExecStart=/usr/bin/python3 /home/mainserver/checker/check_who.py
+
+[Install]
+WantedBy=multi-user.target
+
