@@ -1,14 +1,14 @@
 # ssh-alert-service
  
-before install edit next:
+### Before install edit next:
 
-conf.py						for CHAT_ID BOT_API CAR_NAME
+- ```conf.py``` change: `CHAT_ID` `BOT_API` `CAR_NAME`
 
-checker_who.service			for WorkingDirectory, ExecStart
+- `checker_who.service` change: `WorkingDirectory` and `ExecStart`
+***
+  
+### Make .py file as service
+create file or copy edited ```checker_who.service```: 
 
-
-
-create file or cp edited checker_who.service: 
-
-exmpl:
-nano /etc/systemd/system/YOUR_SERVICE.service
+example:  
+```nano /etc/systemd/system/YOUR_SERVICE.service```
