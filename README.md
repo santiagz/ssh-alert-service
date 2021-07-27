@@ -1,6 +1,6 @@
 # ssh-alert-service
  
-### Before install edit next:
+### Change the following values before installing:
 
 - ```conf.py``` change: `CHAT_ID` `BOT_API` `CAR_NAME`
 
