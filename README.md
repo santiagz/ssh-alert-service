@@ -13,3 +13,6 @@ it is also possible to create a file at the final path with permission
 
 example:  
 ```nano /etc/systemd/system/YOUR_SERVICE.service```
+
+don't forget: `systemctl enable YOUR_SERVICE.service`
+and: `systemctl start YOUR_SERVICE.service`
