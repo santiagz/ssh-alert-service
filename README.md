@@ -1,5 +1,5 @@
 # ssh-alert-service
-![Supported Python versions](https://img.shields.io/badge/python-3.9-green.svg)
+![Supported Python versions](https://img.shields.io/badge/python-3.9-green.svg?style=for-the-badge&logo=appveyor) ![GitHub last commit](https://img.shields.io/github/last-commit/santiagz/ssh-alert-service?style=for-the-badge)
  
 ### Change the following values before installing:
 
